@@ -227,22 +227,12 @@ a {
     gap: 2rem;
 }
 
-.nav-item {
-    counter-increment: item 1;
-}
-
 .nav-link {
     display: flex;
     align-items: center;
     color: var(--text-primary);
     font-size: 13px;
     font-family: var(--font-body);
-}
-
-.nav-link::before {
-    content: "0" counter(item) ". ";
-    color: var(--primary-color);
-    margin-right: 5px;
 }
 
 .nav-link:hover, .active-link {
