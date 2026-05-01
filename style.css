@@ -566,7 +566,7 @@ a {
     margin-bottom: 20px;
 }
 
-.project-image.zed-mockups {
+.project-image.project-mockups {
     grid-column: 5 / -1;
     display: flex;
     flex-direction: row;
@@ -577,12 +577,12 @@ a {
     align-items: center;
 }
 
-.project-showcase.reverse .project-image.zed-mockups {
+.project-showcase.reverse .project-image.project-mockups {
     grid-column: 1 / 9;
     justify-content: flex-start;
 }
 
-.zed-mockups .mockup-img {
+.project-mockups .mockup-img {
     flex: 1;
     width: 100%;
     max-width: 350px;
@@ -593,13 +593,13 @@ a {
     transition: var(--transition);
 }
 
-.zed-mockups .mockup-img:hover {
+.project-mockups .mockup-img:hover {
     transform: translateY(-10px) scale(1.03);
     border-color: var(--primary-color);
     box-shadow: 0 15px 35px -5px rgba(100, 255, 218, 0.2);
 }
 
-.zed-mockups img {
+.project-mockups img {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -881,8 +881,8 @@ a {
         text-align: left;
     }
 
-    .project-image.zed-mockups,
-    .project-showcase.reverse .project-image.zed-mockups {
+    .project-image.project-mockups,
+    .project-showcase.reverse .project-image.project-mockups {
         margin-top: 30px;
         grid-column: 1 / -1;
         justify-content: center;
@@ -890,7 +890,7 @@ a {
         gap: 10px;
     }
 
-    .zed-mockups .mockup-img {
+    .project-mockups .mockup-img {
         width: 100%;
         max-width: 100%;
     }
